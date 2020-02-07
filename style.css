@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.data_container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    margin: 2vw;
+    font-family: sans-serif;
+    color: white;
+    
+    text-align: center;
+}
+
+img {
+    width: 340px;
+    margin: 0;
+    padding: 0;
+}
+
+
+article {
+    padding: 1vw;
+    margin: 1vw;
+    background-color: skyblue;
+}
+
+h1 {
+    color: skyblue;
+    font-family: sans-serif;
+    text-align: center;
+}
